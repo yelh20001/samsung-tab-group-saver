@@ -1,0 +1,18 @@
+:root { color-scheme: light; font-family: "Microsoft YaHei", sans-serif; color: #202a2c; background: #f5f7f5; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 340px; max-width: 440px; }
+header { display: flex; align-items: center; justify-content: space-between; padding: 18px 18px 14px; border-bottom: 1px solid #dce5df; background: #fff; }
+h1 { margin: 0; font-size: 17px; font-weight: 700; }
+header p { margin: 5px 0 0; font-size: 12px; color: #687975; }
+button { font: inherit; cursor: pointer; }
+header button, .delete { border: 0; background: transparent; color: #5a7169; font-size: 23px; width: 34px; height: 34px; border-radius: 4px; }
+button:hover { background: #e7efeb; }
+main { max-height: 430px; overflow-y: auto; padding: 8px; }
+#empty { padding: 25px 10px; text-align: center; font-size: 13px; color: #687975; }
+ul { padding: 0; margin: 0; list-style: none; }
+li { display: flex; align-items: center; gap: 8px; border-bottom: 1px solid #e1e9e4; padding: 6px 4px; }
+.open { flex: 1; min-width: 0; padding: 7px; text-align: left; border: 0; background: none; border-radius: 4px; }
+.name { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 14px; font-weight: 600; }
+.meta { display: block; margin-top: 4px; font-size: 12px; color: #687975; }
+.delete { font-size: 19px; }
+.error { color: #a23832; }

@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "分组随手存",
+  "version": "1.0.0",
+  "description": "自动保存标签分组，并从书签栏恢复。",
+  "permissions": ["tabs", "tabGroups", "bookmarks", "storage"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "分组随手存", "default_popup": "popup.html" }
+}
